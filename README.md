@@ -137,19 +137,19 @@ The Power BI dashboard presents fitness metrics and user activity through multip
 
 ### 🏠 Home Page
 
-![Power BI Home Page](dashboardScreenshot/home-page.png)
+![Power BI Home Page](preview/home-page.jpg)
 
 ### 📈 Executive Overview
 
-![Executive Overview](dashboardScreenshot/executive-overview.png)
+![Executive Overview](preview/executive-overview.jpg)
 
 ### 🔥 Calorie Expenditure Analysis
 
-![Calorie Expenditure Analysis](dashboardScreenshot/calorie-expenditure-analysis.png)
+![Calorie Expenditure Analysis](preview/calorie-expenditure-analysis.jpg)
 
 ### ⏱️ Hourly Activity and User Segmentation
 
-![Hourly Activity and User Segmentation](dashboardScreenshot/hourly-activity-and-user-segmentation.png)
+![Hourly Activity and User Segmentation](preview/hourly-activity-&-user-segmentation.jpg)
 
 ### 🚶 Physical Activity Analysis
 
