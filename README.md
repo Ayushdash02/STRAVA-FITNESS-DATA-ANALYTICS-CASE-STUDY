@@ -242,7 +242,7 @@ Do not upload private, sensitive, or restricted datasets. If redistribution is n
 
 Data Analytics | Python | SQL | Exploratory Data Analysis | Data Visualization
 
-GitHub: [YOUR-USERNAME](https://github.com/Ayushdash02)
+GitHub: [AyushDash](https://github.com/Ayushdash02)
 
 ---
 
