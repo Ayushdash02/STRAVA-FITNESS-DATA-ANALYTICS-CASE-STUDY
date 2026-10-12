@@ -173,35 +173,35 @@ Python was used to perform exploratory analysis, calculate summary metrics, exam
 
 ### 📈 Average Hourly Activity
 
-![Average Hourly Activity](notebookScreenshots/Average-Hourly-Activity.png)
+![Average Hourly Activity](Colab/Average-Hourly-Activity.png)
 
 ### 🔥 Correlation Matrix
 
-![Correlation Matrix](notebookScreenshots/Correlation-Matrix.png)
+![Correlation Matrix](Colab/Correlation-Matrix.png)
 
 ### 📊 Distribution of Daily Steps
 
-![Distribution of Daily Steps](notebookScreenshots/Distribution-of-Daily-Steps.png)
+![Distribution of Daily Steps](Colab/Distribution-of-Daily-Steps.png)
 
 ### 🎯 KPI Analysis
 
-![KPI Analysis](notebookScreenshots/KPI-Section.png)
+![KPI Analysis](Colab/KPI-Section.png)
 
 ### 😴 Sleep Duration Distribution
 
-![Sleep Duration Distribution](notebookScreenshots/Sleep-Duration-Distribution.png)
+![Sleep Duration Distribution](Colab/Sleep-Duration-Distribution.png)
 
 ### 🔍 Steps vs. Calories Burned
 
-![Steps vs Calories Burned](notebookScreenshots/Steps-vs-Calories-Burned.png)
+![Steps vs Calories Burned](Colab/Steps-vs-Calories-Burned.png)
 
 ### 🏆 Top 10 Most Active Users
 
-![Top 10 Most Active Users](notebookScreenshots/Top-10-Most-Active-Users.png)
+![Top 10 Most Active Users](Colab/Top-10-Most-Active-Users.png)
 
 ### 👥 User Activity Segmentation
 
-![User Activity Segmentation](notebookScreenshots/User-Activity-Segmentation.png)
+![User Activity Segmentation](Colab/User-Activity-Segmentation.png)
 
 ## 🗄️ SQL Analysis
 
