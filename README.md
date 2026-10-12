@@ -379,7 +379,7 @@ Do not upload sensitive or restricted data, credentials, connection strings, or 
 
 Data Analytics | Python | SQL | Power BI | Exploratory Data Analysis
 
-GitHub: [YOUR-USERNAME](https://github.com/YOUR-USERNAME)
+GitHub: [Ayush Dash](https://github.com/Ayushdash02)
 
 ---
 
