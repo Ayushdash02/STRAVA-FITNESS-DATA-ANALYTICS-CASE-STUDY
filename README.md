@@ -153,19 +153,19 @@ The Power BI dashboard presents fitness metrics and user activity through multip
 
 ### 🚶 Physical Activity Analysis
 
-![Physical Activity Analysis](dashboardScreenshot/physical-activity-analysis.png)
+![Physical Activity Analysis](preview/physical-activity-analysis.jpg)
 
 ### 😴 Sleep and Wellness Analysis
 
-![Sleep and Wellness Analysis](dashboardScreenshot/sleep-and-wellness-analysis.png)
+![Sleep and Wellness Analysis](preview/sleep-&-wellness-analysis.jpg)
 
 ### 🔗 Relationship Analysis
 
-![Relationship Analysis](dashboardScreenshot/relationship-analysis.png)
+![Relationship Analysis](preview/Relationship.png)
 
 ### 🗂️ Power BI Data Model
 
-![Power BI Data Model](dashboardScreenshot/data-model.png)
+![Power BI Data Model](preview/data-model.png)
 
 ## 🐍 Python Analysis — Google Colab
 
