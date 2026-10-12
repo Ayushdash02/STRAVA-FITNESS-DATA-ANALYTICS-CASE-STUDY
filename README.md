@@ -1,46 +1,250 @@
+
 # 🏃 STRAVA FITNESS DATA ANALYTICS CASE STUDY
 
-### Transforming Fitness Data into Actionable Insights
+### Transforming Fitness Data into Actionable Business Intelligence
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
-[![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black)](https://colab.research.google.com/)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black" alt="Google Colab"/>
+</p>
+
+<p align="center">
+  <b>Python | SQL | Power BI | Exploratory Data Analysis | Data Visualization</b>
+</p>
+
+---
+
+## 📑 Table of Contents
+
+- [Project Overview](#-project-overview)
+- [Business Problem](#-business-problem)
+- [Project Objectives](#-project-objectives)
+- [Technology Stack](#-technology-stack)
+- [Analytical Workflow](#-analytical-workflow)
+- [Key Performance Indicators](#-key-performance-indicators)
+- [Power BI Dashboard](#-power-bi-dashboard)
+- [Python Analysis](#-python-analysis--google-colab)
+- [SQL Analysis](#-sql-analysis)
+- [Business Recommendations](#-business-recommendations)
+- [Repository Structure](#-repository-structure)
+- [Getting Started](#-getting-started)
+- [Dataset and Data Privacy](#-dataset-and-data-privacy)
+- [Limitations](#-limitations)
+- [Future Enhancements](#-future-enhancements)
+- [Author](#-author)
 
 ---
 
 ## 📌 Project Overview
 
-The **STRAVA FITNESS DATA ANALYTICS CASE STUDY** explores fitness and physical activity data to identify user behavior patterns, daily activity trends, and opportunities to improve engagement and wellness.
+The **STRAVA FITNESS DATA ANALYTICS CASE STUDY** is an end-to-end data analytics project focused on understanding fitness activity, user behavior, movement patterns, and wellness indicators.
 
-Using Python, SQL, and data visualization, this project follows an end-to-end analytical workflow, from data cleaning and validation to exploratory data analysis (EDA), insight generation, and business recommendations.
+The project combines Python-based exploratory data analysis (EDA), SQL querying, and Power BI dashboards to transform raw fitness records into meaningful insights.
 
-The goal is to transform raw activity data into meaningful insights that support data-driven decisions for fitness tracking and wellness applications.
+The analytical process includes data cleaning, data validation, descriptive statistics, activity analysis, correlation analysis, KPI development, data visualization, and business recommendations.
+
+**Project Goal:** Turn fitness data into actionable insights that support data-driven decisions about activity tracking, user engagement, and wellness.
+
+## 🎯 Business Problem
+
+Fitness tracking applications collect large amounts of information about physical activity and user behavior. However, raw data does not automatically explain activity patterns or identify opportunities to improve user engagement.
+
+This project examines available fitness metrics to understand user activity, compare movement patterns, explore recorded sleep behavior, and identify opportunities for personalized fitness experiences.
+
+The analysis uses data-driven evidence to support recommendations rather than relying on assumptions.
 
 ## 🎯 Project Objectives
 
-- Analyze daily activity, step counts, distance, and calories burned.
-- Examine recorded sleep patterns and activity levels.
-- Identify trends in user behavior and activity participation.
-- Evaluate activity levels against relevant fitness benchmarks.
-- Explore relationships between activity, distance, calories, and sleep.
-- Develop actionable recommendations for user engagement and retention.
+- Analyze daily steps, distance covered, and calories burned.
+- Explore hourly activity patterns and user participation.
+- Examine recorded sleep duration and wellness indicators.
+- Investigate relationships between physical activity metrics.
+- Compare activity patterns across users.
+- Develop meaningful KPIs and visualizations.
+- Present actionable business recommendations.
 
-## 🛠️ Tools & Technologies
+## 🛠️ Technology Stack
 
 | Technology | Purpose |
 |---|---|
-| Python | Data analysis and processing |
+| Python | Data processing and analysis |
 | Pandas | Data cleaning and manipulation |
 | NumPy | Numerical calculations |
-| Matplotlib | Statistical and exploratory visualizations |
-| Seaborn | Distribution and relationship analysis |
-| Plotly | Interactive visualizations, if used |
-| MySQL | Data validation, querying, and analysis |
-| Google Colab | Cloud-based notebook development |
-| Git & GitHub | Version control and project documentation |
+| Matplotlib | Data visualization |
+| Seaborn | Statistical and relationship analysis |
+| MySQL | Data validation and SQL analysis |
+| Power BI | Interactive dashboards and KPI reporting |
+| Google Colab | Cloud-based Python analysis |
+| Git & GitHub | Version control and documentation |
 
-## 📂 Project Structure
+## 🔄 Analytical Workflow
+
+### 1. Data Understanding
+- Inspect datasets, columns, data types, and record counts.
+- Understand available activity and sleep metrics.
+- Identify potential data quality issues.
+
+### 2. Data Cleaning and Validation
+- Check duplicate records and missing values.
+- Validate date fields and numerical columns.
+- Investigate inconsistent or implausible values.
+- Prepare analysis-ready datasets.
+
+### 3. Exploratory Data Analysis
+- Calculate descriptive statistics.
+- Analyze activity distributions and daily patterns.
+- Compare activity across users.
+- Explore relationships between key variables.
+
+### 4. SQL Analysis
+- Validate record counts and data quality.
+- Perform aggregations and grouped analysis.
+- Analyze user activity and sleep records.
+- Extract insights using SQL queries.
+
+### 5. Power BI Dashboard Development
+- Design KPI cards and analytical charts.
+- Create focused dashboard pages.
+- Analyze activity, calorie expenditure, sleep, and relationships.
+- Present insights through interactive visualizations.
+
+### 6. Insights and Recommendations
+- Interpret analytical results.
+- Identify potential engagement opportunities.
+- Recommend practical improvements.
+- Document limitations and future enhancements.
+
+## 📊 Key Performance Indicators
+
+| KPI | Analytical Purpose |
+|---|---|
+| Total Users | Understand dataset coverage |
+| Average Daily Steps | Evaluate recorded daily movement |
+| Average Sleep Duration | Examine recorded sleep behavior |
+| Average Calories Burned | Understand recorded energy expenditure |
+| Average Distance Covered | Measure movement patterns |
+| Average Hourly Activity | Identify activity patterns over time |
+| User Activity Segmentation | Compare users by activity behavior |
+
+*Populate KPI values using validated analysis results. Define each metric's unit, aggregation level, and calculation method.*
+
+## 📊 Power BI Dashboard
+
+The Power BI dashboard presents fitness metrics and user activity through multiple analytical report pages.
+
+### 🏠 Home Page
+
+![Power BI Home Page](dashboardScreenshot/home-page.png)
+
+### 📈 Executive Overview
+
+![Executive Overview](dashboardScreenshot/executive-overview.png)
+
+### 🔥 Calorie Expenditure Analysis
+
+![Calorie Expenditure Analysis](dashboardScreenshot/calorie-expenditure-analysis.png)
+
+### ⏱️ Hourly Activity and User Segmentation
+
+![Hourly Activity and User Segmentation](dashboardScreenshot/hourly-activity-and-user-segmentation.png)
+
+### 🚶 Physical Activity Analysis
+
+![Physical Activity Analysis](dashboardScreenshot/physical-activity-analysis.png)
+
+### 😴 Sleep and Wellness Analysis
+
+![Sleep and Wellness Analysis](dashboardScreenshot/sleep-and-wellness-analysis.png)
+
+### 🔗 Relationship Analysis
+
+![Relationship Analysis](dashboardScreenshot/relationship-analysis.png)
+
+### 🗂️ Power BI Data Model
+
+![Power BI Data Model](dashboardScreenshot/data-model.png)
+
+## 🐍 Python Analysis — Google Colab
+
+Python was used to perform exploratory analysis, calculate summary metrics, examine relationships, and visualize activity patterns.
+
+### 📈 Average Hourly Activity
+
+![Average Hourly Activity](notebookScreenshots/Average-Hourly-Activity.png)
+
+### 🔥 Correlation Matrix
+
+![Correlation Matrix](notebookScreenshots/Correlation-Matrix.png)
+
+### 📊 Distribution of Daily Steps
+
+![Distribution of Daily Steps](notebookScreenshots/Distribution-of-Daily-Steps.png)
+
+### 🎯 KPI Analysis
+
+![KPI Analysis](notebookScreenshots/KPI-Section.png)
+
+### 😴 Sleep Duration Distribution
+
+![Sleep Duration Distribution](notebookScreenshots/Sleep-Duration-Distribution.png)
+
+### 🔍 Steps vs. Calories Burned
+
+![Steps vs Calories Burned](notebookScreenshots/Steps-vs-Calories-Burned.png)
+
+### 🏆 Top 10 Most Active Users
+
+![Top 10 Most Active Users](notebookScreenshots/Top-10-Most-Active-Users.png)
+
+### 👥 User Activity Segmentation
+
+![User Activity Segmentation](notebookScreenshots/User-Activity-Segmentation.png)
+
+## 🗄️ SQL Analysis
+
+SQL is used to validate records, investigate data quality, summarize metrics, and support structured analysis.
+
+Key activities include:
+
+- Record count validation.
+- Duplicate detection.
+- Missing-value checks.
+- Aggregation of activity and sleep metrics.
+- Grouped analysis by user and time period.
+- Preparation of analytical results.
+
+**SQL script:** `sql/fitness_data_analysis.sql`
+
+Use the database and table names defined in the actual SQL script.
+
+## 💡 Business Recommendations
+
+| Business Area | Recommendation | Intended Outcome |
+|---|---|---|
+| Engagement | Introduce personalized activity goals | Encourage consistent participation |
+| Motivation | Implement challenges and rewards | Support ongoing engagement |
+| Notifications | Provide relevant activity reminders | Encourage regular movement |
+| Wellness | Offer evidence-based sleep education | Improve wellness awareness |
+| Segmentation | Group users by activity patterns | Enable relevant user experiences |
+| Retention | Monitor engagement trends | Identify opportunities for improvement |
+
+*These recommendations are proposals. Their effectiveness should be measured using actual engagement metrics and appropriate experiments.*
+
+## 📦 Project Deliverables
+
+- Python analysis notebook.
+- SQL data validation and analysis scripts.
+- Power BI dashboard.
+- KPI calculations and exploratory visualizations.
+- Google Colab analysis screenshots.
+- Power BI dashboard screenshots.
+- Final analytical report, if included.
+- Business insights and recommendations.
+
+## 📂 Repository Structure
 
 ```text
 strava-fitness-data-analytics-case-study/
@@ -55,7 +259,24 @@ strava-fitness-data-analytics-case-study/
 │   └── fitness_data_analysis.sql
 │
 ├── dashboardScreenshot/
-│   └── README.md
+│   ├── home-page.png
+│   ├── executive-overview.png
+│   ├── calorie-expenditure-analysis.png
+│   ├── hourly-activity-and-user-segmentation.png
+│   ├── physical-activity-analysis.png
+│   ├── sleep-and-wellness-analysis.png
+│   ├── relationship-analysis.png
+│   └── data-model.png
+│
+├── notebookScreenshots/
+│   ├── Average-Hourly-Activity.png
+│   ├── Correlation-Matrix.png
+│   ├── Distribution-of-Daily-Steps.png
+│   ├── KPI-Section.png
+│   ├── Sleep-Duration-Distribution.png
+│   ├── Steps-vs-Calories-Burned.png
+│   ├── Top-10-Most-Active-Users.png
+│   └── User-Activity-Segmentation.png
 │
 ├── reports/
 │   └── README.md
@@ -65,106 +286,27 @@ strava-fitness-data-analytics-case-study/
 └── .gitignore
 ```
 
-*The structure above is a template. Replace example filenames with your actual project files.*
-
-## 🔄 Analytical Workflow
-
-### 1. Data Understanding
-- Inspect dataset structure, columns, and data types.
-- Review the number of records and available activity metrics.
-- Identify missing values and potential quality issues.
-
-### 2. Data Cleaning & Validation
-- Check for duplicate records.
-- Handle missing and inconsistent values appropriately.
-- Validate data types and date fields.
-- Confirm data quality before analysis.
-
-### 3. Exploratory Data Analysis
-- Analyze distributions and summary statistics.
-- Explore daily activity and movement patterns.
-- Compare activity metrics across users.
-- Investigate relationships between key variables.
-
-### 4. SQL Analysis
-- Validate record counts and data quality.
-- Calculate summary metrics using aggregate queries.
-- Analyze user activity and behavioral patterns.
-- Extract insights using filtering, grouping, and joins where appropriate.
-
-### 5. Visualization & Insights
-- Build charts to communicate important patterns.
-- Compare activity metrics against suitable benchmarks.
-- Translate analytical observations into recommendations.
-
-## 📊 Key Performance Indicators
-
-| KPI | Analytical Purpose |
-|---|---|
-| Total Users | Understand dataset coverage |
-| Average Daily Steps | Evaluate daily movement |
-| Average Sleep Duration | Examine recorded sleep behavior |
-| Average Calories Burned | Understand recorded energy expenditure |
-| Average Distance Covered | Measure movement patterns |
-| Peak Activity Hour | Identify periods of higher activity |
-
-> **Note:** KPI values should be populated from the validated analysis. The peak activity hour requires timestamped activity data, and sleep metrics should only be reported for records where sleep was actually measured.
-
-## 📈 Key Business Questions
-
-1. How active are users on a typical day?
-2. What patterns emerge in daily step counts and distance covered?
-3. How does recorded activity vary across users and time periods?
-4. What patterns are visible in sleep duration and activity levels?
-5. Which user segments may benefit from personalized activity goals?
-6. How can fitness applications encourage consistent engagement?
-
-## 💡 Business Recommendations
-
-| Business Area | Recommendation | Expected Benefit |
-|---|---|---|
-| Engagement | Introduce personalized activity goals | Encourage consistent activity |
-| Motivation | Implement challenges and rewards | Increase participation |
-| Notifications | Provide relevant activity reminders | Support daily habits |
-| Wellness | Offer evidence-based sleep education | Improve wellness awareness |
-| Segmentation | Group users by observed activity patterns | Enable targeted experiences |
-| Retention | Track changes in engagement over time | Identify opportunities to improve retention |
-
-*These are proposed recommendations. Their actual impact would need to be measured through product analytics or controlled experiments.*
-
-## 📦 Project Deliverables
-
-- Python analysis notebook
-- SQL scripts for data validation and analysis
-- Exploratory data visualizations
-- KPI summary and analytical findings
-- Final project report
-- Dashboard screenshots, if applicable
-- Business recommendations
+*This structure is illustrative. Keep the filenames synchronized with your actual repository contents. Include your `.pbix` file and final report if you intend to share them.*
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Python 3.10 or a compatible version
-- Jupyter Notebook or Google Colab
-- MySQL Server and MySQL Workbench, if running SQL analysis locally
+- Python 3.10 or a compatible version.
+- Jupyter Notebook or Google Colab.
+- MySQL Server and MySQL Workbench for local SQL execution.
+- Power BI Desktop to open the `.pbix` file, if provided.
 
-### Installation
-
-Clone the repository:
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/strava-fitness-data-analytics-case-study.git
-```
-
-Navigate to the project directory:
-
-```bash
 cd strava-fitness-data-analytics-case-study
 ```
 
-Create a virtual environment:
+Replace `YOUR-USERNAME` with your GitHub username.
+
+### 2. Create a Virtual Environment
 
 ```bash
 python -m venv .venv
@@ -176,80 +318,77 @@ Activate the environment on Windows:
 .venv\Scripts\activate
 ```
 
-Install the required libraries:
+### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Launch Jupyter Notebook:
+### 4. Launch Jupyter Notebook
 
 ```bash
 jupyter notebook
 ```
 
-Open the analysis notebook in the `notebooks/` directory.
+Open the notebook inside the `notebooks/` directory.
 
-### SQL Setup
+Alternatively, upload the notebook to Google Colab and configure the dataset paths.
+
+### 5. Execute SQL Analysis
 
 1. Start MySQL Server.
-2. Create the required database.
-3. Import the source tables or CSV files.
-4. Update table names and file paths if necessary.
-5. Execute the SQL script in the `sql/` directory.
+2. Create the database required by the SQL script.
+3. Import the source tables.
+4. Verify the table and column names.
+5. Execute the queries and validate the results.
 
-Follow the setup instructions in the actual SQL file if they differ from these steps.
+### 6. Open the Power BI Dashboard
 
-## 📸 Dashboard & Visualizations
+Open the `.pbix` file in Power BI Desktop if it is included. Update data source paths and refresh the data when necessary.
 
-Add your project screenshots to `dashboardScreenshot/` and link them below.
+## 📁 Dataset and Data Privacy
 
-Example:
+Document the original dataset provider, source URL, collection period, available fields, license, and usage restrictions.
 
-```markdown
-![Executive Overview](dashboardScreenshot/Executive%20Overview.png)
-```
+**Data attribution is important:** If this analysis uses the Bellabeat case-study dataset containing Fitbit-style activity records, identify that source accurately. A repository title containing "STRAVA" does not prove that the data originated from Strava.
 
-Ensure the image filenames and capitalization match the files uploaded to GitHub.
-
-## 📁 Dataset & Data Privacy
-
-Document the actual dataset provider, source URL, collection period, available fields, license, and any usage restrictions.
-
-If the analysis uses the Fitbit-based Bellabeat case-study dataset, identify it accurately rather than attributing it to Strava. The repository title should not imply that data came from Strava unless the source confirms this.
-
-Do not upload private, sensitive, or restricted datasets. If redistribution is not permitted, provide dataset access instructions instead of the raw files.
+Do not upload sensitive or restricted data, credentials, connection strings, or datasets you do not have permission to redistribute. When redistribution is prohibited, provide instructions for obtaining the dataset from its authorized source.
 
 ## ⚠️ Limitations
 
 - Findings depend on dataset completeness and accuracy.
-- Observed associations do not establish causation.
-- Results may not represent all fitness-app users.
-- Recorded activity and sleep measurements may not capture the complete picture of an individual's wellness.
-- Business recommendations require further validation before implementation.
+- Correlation does not establish causation.
+- The dataset may not represent all fitness-app users.
+- Recorded activity and sleep metrics may not capture every aspect of wellness.
+- Missing observations and tracking differences can affect comparisons.
+- Business recommendations require further validation.
 
 ## 🔮 Future Enhancements
 
-- Develop an interactive fitness analytics dashboard.
-- Add time-series analysis of activity trends.
-- Introduce user segmentation based on activity behavior.
-- Build predictive models where appropriate data is available.
+- Introduce time-series analysis of activity trends.
+- Improve activity segmentation and comparative reporting.
+- Enhance dashboard navigation and interactivity.
+- Automate data quality validation.
+- Explore predictive analytics when suitable data is available.
 - Evaluate engagement strategies using measurable outcomes.
+- Document reproducible data refresh procedures.
 
 ## 👤 Author
 
 **Ayush Dash**
 
-Data Analytics | Python | SQL | Exploratory Data Analysis | Data Visualization
+Data Analytics | Python | SQL | Power BI | Exploratory Data Analysis
 
-GitHub: [AyushDash](https://github.com/Ayushdash02)
+GitHub: [YOUR-USERNAME](https://github.com/YOUR-USERNAME)
 
 ---
 
 ## ⭐ Acknowledgements
 
-Thanks to the dataset providers and the open-source Python and SQL communities whose tools support data analytics and visualization.
+Thanks to the dataset providers and open-source communities whose resources support data analytics, visualization, and reporting.
 
 ---
 
-*If you find this project useful, consider giving the repository a star.*
+<p align="center">
+  <b>Turning Data into Insights. Insights into Action.</b>
+</p>
